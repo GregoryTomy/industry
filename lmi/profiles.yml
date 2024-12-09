@@ -1,0 +1,13 @@
+lmi:
+  outputs:
+    dev:
+      type: duckdb
+      schema: main
+      path: md:industry
+      threads: 1
+    local:
+      type: duckdb
+      schema: main
+      path: local.duckdb
+      threads: 1
+  target: dev
