@@ -1,0 +1,25 @@
+version: 2
+
+sources:
+  - name: staging
+    database: industry
+    schema: main_raw
+
+    tables:
+      - name: ind202__20220100
+      - name: ind202__20210100
+      - name: ind202__20200100
+      - name: ind202__20190100
+      - name: labforce__20190100
+      - name: labforce__20200100
+      - name: labforce__20210100
+      - name: labforce__20220100
+      - name: income__20220100
+      - name: income__20210100
+      - name: income__20200100
+      - name: income__20190100
+      - name: cpi__20190100
+      - name: cpi__20200100
+      - name: cpi__20210100
+      - name: cpi__20220100
+      - name: COGOVSLRGSP
