@@ -35,6 +35,9 @@ models:
     staging:
       +schema: staging
       +materialized: view
+    refined:
+      +schema: refined
+      +materialized: view
 
 seeds:
   lmi:
