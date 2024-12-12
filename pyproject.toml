@@ -1,14 +1,12 @@
 [project]
-name = "analysis"
+name = "industry"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "arviz>=0.20.0",
-    "duckdb>=1.1.3",
     "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
     "matplotlib>=3.9.3",
     "pandas>=2.2.3",
-    "pymc>=5.19.1",
 ]
